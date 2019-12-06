@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "10.13.0",
+    "npm": "6.x",
+    "yarn": "1.x"
+  },
   "scripts": {
     "build:dev": "webpack --watch",
     "build:prod": "webpack -p --env production",
